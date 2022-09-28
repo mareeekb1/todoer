@@ -1,8 +1,8 @@
 export const drawerWidth = 240;
 
 export const routes: { [name: string]: { name: string; path: string } } = {
-  // dashboard: { path: "/", name: "Dashboard" },
-  todo: { path: "/", name: "ToDo" },
+  dashboard: { path: "/", name: "Dashboard" },
+  todo: { path: "/todo", name: "ToDo" },
   labels: { path: "/labels", name: "Labels" },
   milestones: { path: "/milestones", name: "Milestones" },
   settings: { path: "/settings", name: "Settings" },

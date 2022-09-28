@@ -1,5 +1,5 @@
 {
-  "name": "create-react-app-with-typescript",
+  "name": "todoer",
   "version": "5.0.0",
   "private": true,
   "dependencies": {
@@ -8,19 +8,24 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "latest",
     "@reduxjs/toolkit": "^1.8.5",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.23",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router": "^5.1.19",
+    "@types/redux": "^3.6.0",
     "axios": "^0.27.2",
-    "react": "latest",
+    "react": "^18.2.0",
     "react-color": "^2.19.3",
-    "react-dom": "latest",
+    "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.1",
     "react-scripts": "latest",
     "redux": "^4.2.0",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.4.1",
-    "typescript": "latest"
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Mainbar from "./components/common/Mainbar";
 import Navbar, { DrawerHeader } from "./components/common/Navbar";
-// import Dashboard from "./views/dashboard/Dashboard";
+import Dashboard from "./views/dashboard/Dashboard";
 import ErrorPage from "./views/error/ErrorPage";
 import Todo from "./views/todo/Todo";
 import LabelsView from "./views/labels/LabelsView";
@@ -28,7 +28,7 @@ export default function App() {
           <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
             <DrawerHeader />
             <Routes>
-              {/* <Route path={routes.dashboard.path} element={<Dashboard />} /> */}
+              <Route path={routes.dashboard.path} element={<Dashboard />} />
               <Route path={routes.todo.path} element={<Todo />} />
               <Route path={routes.labels.path} element={<LabelsView />} />
               <Route
